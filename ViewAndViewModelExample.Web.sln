@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewAndViewModelExample.Web", "ViewAndViewModelExample.Web\ViewAndViewModelExample.Web.csproj", "{5410B925-CD93-4E3B-849D-6AEEC494123C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wba.Oefening.Students.Domain", "Wba.Oefening.Students.Domain\Wba.Oefening.Students.Domain.csproj", "{5A44E527-7E5C-41C7-B86F-492A36F44E17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5410B925-CD93-4E3B-849D-6AEEC494123C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5410B925-CD93-4E3B-849D-6AEEC494123C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5410B925-CD93-4E3B-849D-6AEEC494123C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A44E527-7E5C-41C7-B86F-492A36F44E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A44E527-7E5C-41C7-B86F-492A36F44E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A44E527-7E5C-41C7-B86F-492A36F44E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A44E527-7E5C-41C7-B86F-492A36F44E17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
