@@ -8,8 +8,10 @@ namespace ViewAndViewModelExample.Web.Controllers
 {
     public class StudentController : Controller
     {
+        [Route("Students/Index")]
         public IActionResult Index() 
         {
+           
             return View();
         }
     }

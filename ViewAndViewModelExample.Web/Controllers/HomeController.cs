@@ -15,10 +15,7 @@ namespace ViewAndViewModelExample.Web.Controllers
             return View();
         }
 
-        public IActionResult GetStudent()
-        {
-            return View();
-        }
+       
 
         public IActionResult About()
         {
