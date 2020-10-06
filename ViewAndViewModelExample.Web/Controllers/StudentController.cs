@@ -8,7 +8,7 @@ namespace ViewAndViewModelExample.Web.Controllers
 {
     public class StudentController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index() 
         {
             return View();
         }
