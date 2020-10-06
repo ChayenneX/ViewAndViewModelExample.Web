@@ -10,8 +10,10 @@ namespace ViewAndViewModelExample.Web.Controllers
 {
     public class HomeController : Controller
     {
+        [Route("/")]
         public IActionResult Index()
         {
+            ViewData["Message"] = "Welcome!";
             return View();
         }
 

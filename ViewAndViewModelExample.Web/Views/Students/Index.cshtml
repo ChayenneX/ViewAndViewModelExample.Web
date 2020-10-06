@@ -1,0 +1,20 @@
+﻿@model StudentVM
+@{
+    ViewData["Title"] = "GetStudent";
+}
+@foreach (var item in Model.students)
+{
+
+    <h1>@item.Id</h1>
+    <br />
+    <h1>@item.Lastname</h1>
+    <br />
+    <h1>@item.Firstname</h1>
+    <br />
+    <h1>@item.Course</h1>
+}
+
+
+<h2>@ViewBag.</h2>
+<h2>GetStudent</h2>
+
